@@ -9,13 +9,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italianno&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <!-- *Font Awesome stert -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- *Font Awesome end -->
+  <!-- !Sweeper CDL sterd -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- !Sweeper CDL end -->
   <!-- *LINK STYLE SHEET  -->
   <link rel="stylesheet" href="./CSS/style.css">
 </head>
@@ -27,17 +31,15 @@
         <div class="logo">
           <h2>COFFEE TIME</h2>
         </div>
-        <div class="meno">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Review</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Registration</a></li>
-          </ul>
-        </div>
+        <ul class="meno">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Review</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Registration</a></li>
+        </ul>
         <div class="Quick-icoo">
           <i class="fa-solid fa-magnifying-glass"></i>
           <i class="fa-solid fa-cart-shopping"></i>
@@ -45,7 +47,340 @@
       </div>
     </nav>
   </header>
+  <!-- *header end  -->
+  <main>
+    <div class="conainer">
+      <section class="baner">
+        <div class="baner-text">
+          <h1>FRESH COFFEE IN
+            THE MORNING.</h1>
+          <p>Lorem ipsum dolor sit amet consectetur. Diam sit eget metus consectetur ultrices. Sagittis ipsum commodo ut
+            habitasse
+            enim non suspendisse. Aliquet massa urna vivamus nibh fringilla tempor maecenas. Tortor et et consequat sem
+            placerat.</p>
+          <a href="#">Get Yours Now</a>
+        </div>
+      </section>
 
+      <section class="about-area">
+        <form>
+          <div class="conainer">
+            <div class="select-box">
+              <select name="select-your-option">
+                <option>Select Your Option</option>
+                <option>Select Your Option</option>
+                <option>Select Your Option</option>
+              </select>
+            </div>
+            <div class="quantity">
+              <input type="number">
+            </div>
+            <div class="email">
+              <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="btn">
+              <button>Confirm</button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section class="about-area">
+        <h2>About Us</h2>
+        <div class="our-cofee">
+          <div class="images">
+            <img src="./images/our-cofee.png" alt="">
+          </div>
+          <div class="right-side">
+            <h4>What makes our Cofee Speacial</h4>
+            <p>Lorem ipsum dolor sit amet consectetur. Volutpat blandit et massa aenean volutpat viverra. Sed eros morbi
+              viverra
+              elementum adipiscing diam elit. Id nec in ornare magna eu faucibus condimentum. Suscipit</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured">
+        <h2>Featured Products</h2>
+        <div class="f-conainer">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/cofee-1.png" alt="">
+                <a href="#">Featured p. Name</a>
+                <span>50,000$</span>
+                <div class="ster">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/cofee-2.png" alt="">
+                <a href="#">Featured p. Name</a>
+                <span>50,000$</span>
+                <div class="ster">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/cofee-3.png" alt="">
+                <a href="#">Featured p. Name</a>
+                <span>50,000$</span>
+                <div class="ster">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/cofee-4.png" alt="">
+                <a href="#">Featured p. Name</a>
+                <span>50,000$</span>
+                <div class="ster">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/cofee-2.png" alt="">
+                <a href="#">Featured p. Name</a>
+                <span>50,000$</span>
+                <div class="ster">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/cofee-1.png" alt="">
+                <a href="#">Featured p. Name</a>
+                <span>50,000$</span>
+                <div class="ster">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/cofee-3.png" alt="">
+                <a href="#">Featured p. Name</a>
+                <span>50,000$</span>
+                <div class="ster">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/cofee-1.png" alt="">
+                <a href="#">Featured p. Name</a>
+                <span>50,000$</span>
+                <div class="ster">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/cofee-1.png" alt="">
+                <a href="#">Featured p. Name</a>
+                <span>50,000$</span>
+                <div class="ster">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="our-products">
+        <h2>Our Products</h2>
+        <div class="product-bxo">
+          <div class="p-card">
+            <img src="./images/product-1.png" alt="">
+            <a href="#">Products Name</a>
+            <span>50,000$</span>
+            <a class="p-btn" href="#">Details Here</a>
+          </div>
+          <div class="p-card">
+            <img src="./images/product-2.png" alt="">
+            <a href="#">Products Name</a>
+            <span>50,000$</span>
+            <a class="p-btn" href="#">Details Here</a>
+          </div>
+          <div class="p-card">
+            <img src="./images/product-3.png" alt="">
+            <a href="#">Products Name</a>
+            <span>50,000$</span>
+            <a class="p-btn" href="#">Details Here</a>
+          </div>
+          <div class="p-card">
+            <img src="./images/product-4.png" alt="">
+            <a href="#">Products Name</a>
+            <span>50,000$</span>
+            <a class="p-btn" href="#">Details Here</a>
+          </div>
+          <div class="p-card">
+            <img src="./images/product-5.png" alt="">
+            <a href="#">Products Name</a>
+            <span>50,000$</span>
+            <a class="p-btn" href="#">Details Here</a>
+          </div>
+          <div class="p-card">
+            <img src="./images/product-6.png" alt="">
+            <a href="#">Products Name</a>
+            <span>50,000$</span>
+            <a class="p-btn" href="#">Details Here</a>
+          </div>
+        </div>
+      </section>
+      <section class="blog-area">
+        <div class="blog-p">
+          <h2>From The Blog</h2>
+          <p>Lorem ipsum dolor sit amet consectetur. Nam felis eget lectus aliquam sem at sem aliquet enim. Massa amet
+            blandit turpis
+            in dignissim porttitor consequat augue condimentum. Vulputate dignissim consequat facilisis mauris quis
+            ullamcorper
+            condimentum cursus ridiculus. Massa vitae ligula blandit in.</p>
+        </div>
+        <div class="blog-card">
+          <a href="#">
+            <div class="b-card">
+              <img src="./images/blog-img-1.png" alt="">
+              <h4>Necessitibus</h4>
+              <p>Lorem ipsum dolor sit amet consectetur. Non accumsan enim non non nulla enim quis id posuere.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="b-card">
+              <img src="./images/blog-img-2.png" alt="">
+              <h4>Necessitibus</h4>
+              <p>Lorem ipsum dolor sit amet consectetur. Non accumsan enim non non nulla enim quis id posuere.</p>
+            </div>
+          </a>
+          <a href="#">
+            <div class="b-card">
+              <img src="./images/blog-img-3.png" alt="">
+              <h4>Necessitibus</h4>
+              <p>Lorem ipsum dolor sit amet consectetur. Non accumsan enim non non nulla enim quis id posuere.</p>
+            </div>
+          </a>
+        </div>
+        <div class="blog-2">
+          <div class="b-text-box">
+            <img src="./images/blog-p.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur. Dignissim nibh donec dictum posuere malesuada sem orci. Ut nisl
+              pellentesque id
+              ac non. Euismod nunc enim lorem varius magnis nunc mollis tortor. Lectus ornare cras habitasse aliquet vel
+              quis laoreet
+              viverra eu. Eget gravida ut feugiat pretium tempus euismod pellentesque egestas phasellus. Velit in
+              praesent
+              nunc luctus
+              laoreet euismod. Luctus natoque egestas cras urna pulvinar. Risus integer adipiscing enim mauris. Rhoncus
+              aliquam at
+              cursus faucibus euismod lectus. Lacus mi varius cursus mauris ornare turpis eget risus faucibus. Mi non
+              volutpat
+              maecenas libero</p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </section>
+      <section class="Registration">
+        <h2>Registration From</h2>
+        <div class="r-form">
+          <form>
+            <h2>Sign Up</h2>
+            <div class="input-1">
+              <input type="text" placeholder="Full Name">
+            </div>
+            <div class="input-1">
+              <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-1">
+              <input type="password" placeholder="Password">
+            </div>
+            <div class="f-btn-1">
+              <button>Signup</button>
+            </div>
+            <div class="f-btn-2">
+              <button>LogIn</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="conainer">
+
+      <div class="about">
+        <h3>About Us</h3>
+        <ul>
+          <li><a href="#">Our Company</a></li>
+          <li><a href="#">Our Coffee</a></li>
+          <li><a href="#">Stories</a></li>
+          <li><a href="#">Starbucks Archive</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="Career">
+        <h3>Career</h3>
+        <ul>
+          <li><a href="#">Clture and Value</a></li>
+          <li><a href="#">Enclution and equity</a></li>
+          <li><a href="#">Collage Achivement</a></li>
+          <li><a href="#">U.S Career</a></li>
+          <li><a href="#">International career</a></li>
+        </ul>
+      </div>
+      <div class="Social-Impact">
+        <h3>Social Impact</h3>
+        <ul>
+          <li><a href="#">People</a></li>
+          <li><a href="#">Planet</a></li>
+          <li><a href="#">Enviromental report</a></li>
+        </ul>
+      </div>
+      <div class="For Business Partner">
+        <h3>Land Lord</h3>
+        <ul>
+          <li><a href="#">Suppliers</a></li>
+          <li><a href="#">Coporate Gift card selkl</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- *Swiper CDL sterd -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- *Swiper CDL end -->
+  <script src="./JavaScript/Script.js"></script>
 </body>
 
 </html>
