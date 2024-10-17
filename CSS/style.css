@@ -96,13 +96,18 @@ nav .meno li a {
 }
 .baner-text a {
   font-family: var(--second-family);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   line-height: 120%;
   color: #323232;
   padding: 18px 45px;
   background-color: #fff;
   border-radius: 5px;
+  transition: 0.3s;
+}
+.baner-text a:hover {
+  background: #d7964c;
+  color: #fff;
 }
 /** ===================Baner end=================  */
 
@@ -287,6 +292,10 @@ body {
   color: #4b4b4b;
   margin: 13px 0;
 }
+.swiper-slide a:hover {
+  color: #531b0a;
+  text-decoration: underline;
+}
 .swiper-slide span {
   font-family: var(--second-family);
   font-weight: 500;
@@ -335,7 +344,11 @@ body {
   color: #4b4b4b;
   display: block;
   text-align: center;
-  margin-bottom: 13px;
+  margin: 13px 0;
+}
+.p-card a:hover {
+  color: #531b0a;
+  text-decoration: underline;
 }
 .p-card span {
   font-family: var(--second-family);
@@ -358,6 +371,12 @@ body {
   padding: 15px 43px;
   margin-left: 103px;
   border-radius: 5px;
+  border: 1px solid #d7964c;
+  transition: 0.3s;
+}
+.p-card .p-btn:hover {
+  background: transparent;
+  color: #d7964c;
 }
 /* *================Our products end============== */
 /* *================From The Blog sterd========== */
@@ -540,8 +559,67 @@ body {
   color: #fff;
 }
 /**=============Registration form end========  */
-.conaine {
+footer {
+  width: 1440px;
+  height: 867px;
+  margin: auto;
+}
+.main-footer {
   display: flex;
-  flex-direction: column;
+  width: 1440px;
+  height: 465px;
+  margin: auto;
   justify-content: space-between;
+  padding: 76px 80px;
+  margin-top: 90px;
+  border-bottom: 1px solid #989898;
+}
+.main-footer h3 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 25px;
+  color: #242424;
+}
+.main-footer ul li {
+  margin: 22px 0;
+}
+.main-footer ul li a {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #565656;
+  transition: 0.2s;
+}
+.main-footer ul li a:hover {
+  color: #531b0a;
+  text-decoration: underline;
+}
+.Second-footer {
+  padding: 62px 0 0 81px;
+}
+.f-icons {
+  margin-bottom: 25px;
+}
+.f-icons a {
+  color: #000;
+}
+.f-icons i {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.Second-footer ul li {
+  margin-bottom: 19px;
+}
+.Second-footer ul li a {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #565656;
+  transition: 0.2s;
+}
+.Second-footer ul li a:hover {
+  color: #531b0a;
+  text-decoration: underline;
 }
