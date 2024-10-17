@@ -241,7 +241,7 @@ select {
 
 .f-conainer {
   width: 1449px;
-  height: 600px;
+  height: 665px;
   background: #e1e1e1;
   padding: 34px 0;
 }
@@ -252,14 +252,6 @@ body {
   height: 100%;
 }
 
-body {
-  background: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
 
 .swiper {
   width: 100%;
@@ -275,9 +267,7 @@ body {
   /* justify-content: center; */
   /* align-items: center; */
   width: 450px !important;
-  margin-right: 25px !important;
 }
-
 .swiper-slide img {
   display: block;
   width: 450px;
@@ -308,6 +298,35 @@ body {
   font-size: 16px;
   color: #531b0a;
 }
+
+/* button start */
+.swiper-button-next::after,
+.swiper-button-prev::after{
+  content: '';
+}
+.swiper-button-next,
+.swiper-button-prev{
+  background-color: #531b0a;
+  border: 0.0625rem solid var(--border-color);
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 0.3125rem;
+  color: #fff;
+  font-size: 0.9375rem;
+}
+
+.swiper-button-prev{
+  left: initial;
+  right: 2.5rem;
+}
+
+.swiper-button-next{
+  right: 0.5rem;
+}
+.swiper-button-prev{
+    left: 0.5rem;
+}
+/* button end */
 /* *===============Square Paris CSS End =============*/
 /* *================Our products sterd============== */
 .our-products h2 {

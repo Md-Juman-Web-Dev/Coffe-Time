@@ -18,6 +18,7 @@
   <!-- *Font Awesome end -->
   <!-- !Sweeper CDL sterd -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <!-- !Sweeper CDL end -->
   <!-- *LINK STYLE SHEET  -->
@@ -216,6 +217,12 @@
               </div>
             </div>
             <!-- <div class="swiper-pagination"></div> -->
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="swiper-button-prev">
+              <i class="fa-solid fa-chevron-left"></i>
+          </div>
           </div>
         </div>
       </section>
@@ -315,22 +322,23 @@
       <section class="Registration">
         <h2>Registration From</h2>
         <div class="r-form">
-          <form>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="f1a3604b-b4f1-45f4-afc8-23648cdbfa84">
             <h2>Sign Up</h2>
             <div class="input-1">
-              <input type="text" placeholder="Full Name">
+              <input type="text" name="full_name" placeholder="Full Name">
             </div>
             <div class="input-1">
-              <input type="email" placeholder="Email Address">
+              <input type="email" name="email" placeholder="Email Address">
             </div>
             <div class="input-1">
               <input type="password" placeholder="Password">
             </div>
             <div class="f-btn-1">
-              <button>Signup</button>
+              <button type="submit">Signup</button>
             </div>
             <div class="f-btn-2">
-              <button>LogIn</button>
+              <button type="submit">LogIn</button>
             </div>
           </form>
         </div>
